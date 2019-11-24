@@ -1,4 +1,10 @@
-## shablona
+## evp001
+
+evp001 modified from Shablona template.
+2 previous projects included:  
+hw9.py for clustering and
+an0_exploratory.py, an1_health.py, an2_colour.py, an3_phenols.py for wine figures
+
 [![Build Status](https://travis-ci.org/uwescience/shablona.svg?branch=master)](https://travis-ci.org/uwescience/shablona)
 
 Shablona is a template project for small scientific python projects. The
