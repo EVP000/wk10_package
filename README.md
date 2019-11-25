@@ -1,9 +1,30 @@
 ## evp001
 
 evp001 modified from Shablona template.
-2 previous projects included:  
-hw9.py for clustering and
-an0_exploratory.py, an1_health.py, an2_colour.py, an3_phenols.py for wine figures
+projects included:
+
+program name: an0_exploratory.py  
+optional arguments: --plot/-p + 3 column names (eg. -p bmi sex class)
+                    --debug/-x
+                    --header/-H to determine if a line of headers is present
+		    
+program name: an1_health.py
+no optional arguments: Uses Wine data to display information about whether certain 
+classes are higher in healthy attributes
+output: side-by-side bar charts		    
+		    
+program name: an2_colour.py
+no optional arguments: Uses Wine data to display information about the relationship of 
+various attributes with colour and hue		    
+
+program name: an3_phenols.py
+no optional arguments: Uses Wine data to display information about the proportions 
+of phenols: flavonoids to nonflavonoid
+output: stacked bar chart
+
+program: hw9.py
+no arguments: uses iris data and performs clustering with k-means
+		    
 
 [![Build Status](https://travis-ci.org/uwescience/shablona.svg?branch=master)](https://travis-ci.org/uwescience/shablona)
 
